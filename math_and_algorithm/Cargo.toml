@@ -1,0 +1,38 @@
+[package]
+name = "math_and_algorithm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.4.3"
+
+[[bin]]
+name = "Q001"
+path = "src/bin/Q001.rs"
+
+[[bin]]
+name = "Q002"
+path = "src/bin/Q002.rs"
+
+[[bin]]
+name = "Q003"
+path = "src/bin/Q003.rs"
+
+[[bin]]
+name = "Q004"
+path = "src/bin/Q004.rs"
+
+[[bin]]
+name = "Q005"
+path = "src/bin/Q005.rs"
+
+[[bin]]
+name = "Q006"
+path = "src/bin/Q006.rs"
+
+[[bin]]
+name = "Q007"
+path = "src/bin/Q007.rs"
+
