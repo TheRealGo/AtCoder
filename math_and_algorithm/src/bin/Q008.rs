@@ -12,11 +12,11 @@ fn main() {
 
     let result = if s < n {
         (s - 1) * s / 2
-    } else if n <= s && s < 2 * n {
-        let a = 2 * n - s;
-        n.pow(2) - (a + 1) * a / 2
+    } else if 2 * n <= s {
+        n * n
     } else {
-        n.pow(2)
+        let a = 2 * n - s;
+        n * n - (a + 1) * a / 2
     };
 
     println!("{result}");
