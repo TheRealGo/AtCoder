@@ -1,5 +1,4 @@
 use std::io;
-use num::integer::lcm;
 
 fn main() {
     let mut input = String::new();
@@ -8,10 +7,17 @@ fn main() {
         .split_whitespace()
         .map(|s| s.parse().expect("Please type a number!"))
         .collect();
-    let n: i32 = numbers[0];
-    let x: i32 = numbers[1];
-    let y: i32 = numbers[2];
+    let n = numbers[0];
+    let s = numbers[1];
 
-    let result = n / x + n / y - n / lcm(x, y);
-    println!("{}", result);
+    let result = if s < n {
+        (s - 1) * s / 2
+    } else if n <= s && s < 2 * n {
+        let a = 2 * n - s;
+        n.pow(2) - (a + 1) * a / 2
+    } else {
+        n.pow(2)
+    };
+
+    println!("{result}");
 }

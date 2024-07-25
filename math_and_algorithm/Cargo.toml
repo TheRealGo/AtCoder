@@ -36,3 +36,7 @@ path = "src/bin/Q006.rs"
 name = "Q007"
 path = "src/bin/Q007.rs"
 
+[[bin]]
+name = "Q008"
+path = "src/bin/Q008.rs"
+
