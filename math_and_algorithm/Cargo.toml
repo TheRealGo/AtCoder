@@ -7,6 +7,8 @@ edition = "2021"
 
 [dependencies]
 num = "0.4.3"
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
 
 [[bin]]
 name = "Q001"
@@ -39,4 +41,12 @@ path = "src/bin/Q007.rs"
 [[bin]]
 name = "Q008"
 path = "src/bin/Q008.rs"
+
+[[bin]]
+name = "Q009_1"
+path = "src/bin/Q009_1.rs"
+
+[[bin]]
+name = "Q009_2"
+path = "src/bin/Q009_2.rs"
 
