@@ -23,7 +23,7 @@ fn main() {
         .collect();
 
     for i in numbers.iter() {
-        bit_flag |= bit_flag.clone() << i;
+        bit_flag |= &bit_flag << i;
     };
 
     bit_flag &= BigUint::one() << sum;
