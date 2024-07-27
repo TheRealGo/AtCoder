@@ -9,6 +9,7 @@ edition = "2021"
 num = "0.4.3"
 num-bigint = "0.4.6"
 num-traits = "0.2.19"
+bit-set = "0.8.0"
 
 [[bin]]
 name = "Q001"
@@ -53,4 +54,8 @@ path = "src/bin/Q009_2.rs"
 [[bin]]
 name = "Q010"
 path = "src/bin/Q010.rs"
+
+[[bin]]
+name = "Q011"
+path = "src/bin/Q011.rs"
 
