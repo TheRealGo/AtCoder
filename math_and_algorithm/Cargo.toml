@@ -63,3 +63,7 @@ path = "src/bin/Q011.rs"
 name = "Q012"
 path = "src/bin/Q012.rs"
 
+[[bin]]
+name = "Q013"
+path = "src/bin/Q013.rs"
+
