@@ -67,3 +67,367 @@ path = "src/bin/Q012.rs"
 name = "Q013"
 path = "src/bin/Q013.rs"
 
+[[bin]]
+name = "Q014"
+path = "src/bin/Q014.rs"
+
+#[[bin]]
+#name = "Q015"
+#path = "src/bin/Q015.rs"
+
+#[[bin]]
+#name = "Q016"
+#path = "src/bin/Q016.rs"
+
+#[[bin]]
+#name = "Q017"
+#path = "src/bin/Q017.rs"
+
+#[[bin]]
+#name = "Q018"
+#path = "src/bin/Q018.rs"
+
+#[[bin]]
+#name = "Q019"
+#path = "src/bin/Q019.rs"
+
+#[[bin]]
+#name = "Q020"
+#path = "src/bin/Q020.rs"
+
+#[[bin]]
+#name = "Q021"
+#path = "src/bin/Q021.rs"
+
+#[[bin]]
+#name = "Q022"
+#path = "src/bin/Q022.rs"
+
+#[[bin]]
+#name = "Q023"
+#path = "src/bin/Q023.rs"
+
+#[[bin]]
+#name = "Q024"
+#path = "src/bin/Q024.rs"
+
+#[[bin]]
+#name = "Q025"
+#path = "src/bin/Q025.rs"
+
+#[[bin]]
+#name = "Q026"
+#path = "src/bin/Q026.rs"
+
+#[[bin]]
+#name = "Q027"
+#path = "src/bin/Q027.rs"
+
+#[[bin]]
+#name = "Q028"
+#path = "src/bin/Q028.rs"
+
+#[[bin]]
+#name = "Q029"
+#path = "src/bin/Q029.rs"
+
+#[[bin]]
+#name = "Q030"
+#path = "src/bin/Q030.rs"
+
+#[[bin]]
+#name = "Q031"
+#path = "src/bin/Q031.rs"
+
+#[[bin]]
+#name = "Q032"
+#path = "src/bin/Q032.rs"
+
+#[[bin]]
+#name = "Q033"
+#path = "src/bin/Q033.rs"
+
+#[[bin]]
+#name = "Q034"
+#path = "src/bin/Q034.rs"
+
+#[[bin]]
+#name = "Q035"
+#path = "src/bin/Q035.rs"
+
+#[[bin]]
+#name = "Q036"
+#path = "src/bin/Q036.rs"
+
+#[[bin]]
+#name = "Q037"
+#path = "src/bin/Q037.rs"
+
+#[[bin]]
+#name = "Q038"
+#path = "src/bin/Q038.rs"
+
+#[[bin]]
+#name = "Q039"
+#path = "src/bin/Q039.rs"
+
+#[[bin]]
+#name = "Q040"
+#path = "src/bin/Q040.rs"
+
+#[[bin]]
+#name = "Q041"
+#path = "src/bin/Q041.rs"
+
+#[[bin]]
+#name = "Q042"
+#path = "src/bin/Q042.rs"
+
+#[[bin]]
+#name = "Q043"
+#path = "src/bin/Q043.rs"
+
+#[[bin]]
+#name = "Q044"
+#path = "src/bin/Q044.rs"
+
+#[[bin]]
+#name = "Q045"
+#path = "src/bin/Q045.rs"
+
+#[[bin]]
+#name = "Q046"
+#path = "src/bin/Q046.rs"
+
+#[[bin]]
+#name = "Q047"
+#path = "src/bin/Q047.rs"
+
+#[[bin]]
+#name = "Q048"
+#path = "src/bin/Q048.rs"
+
+#[[bin]]
+#name = "Q049"
+#path = "src/bin/Q049.rs"
+
+#[[bin]]
+#name = "Q050"
+#path = "src/bin/Q050.rs"
+
+#[[bin]]
+#name = "Q051"
+#path = "src/bin/Q051.rs"
+
+#[[bin]]
+#name = "Q052"
+#path = "src/bin/Q052.rs"
+
+#[[bin]]
+#name = "Q053"
+#path = "src/bin/Q053.rs"
+
+#[[bin]]
+#name = "Q054"
+#path = "src/bin/Q054.rs"
+
+#[[bin]]
+#name = "Q055"
+#path = "src/bin/Q055.rs"
+
+#[[bin]]
+#name = "Q056"
+#path = "src/bin/Q056.rs"
+
+#[[bin]]
+#name = "Q057"
+#path = "src/bin/Q057.rs"
+
+#[[bin]]
+#name = "Q058"
+#path = "src/bin/Q058.rs"
+
+#[[bin]]
+#name = "Q059"
+#path = "src/bin/Q059.rs"
+
+#[[bin]]
+#name = "Q060"
+#path = "src/bin/Q060.rs"
+
+#[[bin]]
+#name = "Q061"
+#path = "src/bin/Q061.rs"
+
+#[[bin]]
+#name = "Q062"
+#path = "src/bin/Q062.rs"
+
+#[[bin]]
+#name = "Q063"
+#path = "src/bin/Q063.rs"
+
+#[[bin]]
+#name = "Q064"
+#path = "src/bin/Q064.rs"
+
+#[[bin]]
+#name = "Q065"
+#path = "src/bin/Q065.rs"
+
+#[[bin]]
+#name = "Q066"
+#path = "src/bin/Q066.rs"
+
+#[[bin]]
+#name = "Q067"
+#path = "src/bin/Q067.rs"
+
+#[[bin]]
+#name = "Q068"
+#path = "src/bin/Q068.rs"
+
+#[[bin]]
+#name = "Q069"
+#path = "src/bin/Q069.rs"
+
+#[[bin]]
+#name = "Q070"
+#path = "src/bin/Q070.rs"
+
+#[[bin]]
+#name = "Q071"
+#path = "src/bin/Q071.rs"
+
+#[[bin]]
+#name = "Q072"
+#path = "src/bin/Q072.rs"
+
+#[[bin]]
+#name = "Q073"
+#path = "src/bin/Q073.rs"
+
+#[[bin]]
+#name = "Q074"
+#path = "src/bin/Q074.rs"
+
+#[[bin]]
+#name = "Q075"
+#path = "src/bin/Q075.rs"
+
+#[[bin]]
+#name = "Q076"
+#path = "src/bin/Q076.rs"
+
+#[[bin]]
+#name = "Q077"
+#path = "src/bin/Q077.rs"
+
+#[[bin]]
+#name = "Q078"
+#path = "src/bin/Q078.rs"
+
+#[[bin]]
+#name = "Q079"
+#path = "src/bin/Q079.rs"
+
+#[[bin]]
+#name = "Q080"
+#path = "src/bin/Q080.rs"
+
+#[[bin]]
+#name = "Q081"
+#path = "src/bin/Q081.rs"
+
+#[[bin]]
+#name = "Q082"
+#path = "src/bin/Q082.rs"
+
+#[[bin]]
+#name = "Q083"
+#path = "src/bin/Q083.rs"
+
+#[[bin]]
+#name = "Q084"
+#path = "src/bin/Q084.rs"
+
+#[[bin]]
+#name = "Q085"
+#path = "src/bin/Q085.rs"
+
+#[[bin]]
+#name = "Q086"
+#path = "src/bin/Q086.rs"
+
+#[[bin]]
+#name = "Q087"
+#path = "src/bin/Q087.rs"
+
+#[[bin]]
+#name = "Q088"
+#path = "src/bin/Q088.rs"
+
+#[[bin]]
+#name = "Q089"
+#path = "src/bin/Q089.rs"
+
+#[[bin]]
+#name = "Q090"
+#path = "src/bin/Q090.rs"
+
+#[[bin]]
+#name = "Q091"
+#path = "src/bin/Q091.rs"
+
+#[[bin]]
+#name = "Q092"
+#path = "src/bin/Q092.rs"
+
+#[[bin]]
+#name = "Q093"
+#path = "src/bin/Q093.rs"
+
+#[[bin]]
+#name = "Q094"
+#path = "src/bin/Q094.rs"
+
+#[[bin]]
+#name = "Q095"
+#path = "src/bin/Q095.rs"
+
+#[[bin]]
+#name = "Q096"
+#path = "src/bin/Q096.rs"
+
+#[[bin]]
+#name = "Q097"
+#path = "src/bin/Q097.rs"
+
+#[[bin]]
+#name = "Q098"
+#path = "src/bin/Q098.rs"
+
+#[[bin]]
+#name = "Q099"
+#path = "src/bin/Q099.rs"
+
+#[[bin]]
+#name = "Q100"
+#path = "src/bin/Q100.rs"
+
+#[[bin]]
+#name = "Q101"
+#path = "src/bin/Q101.rs"
+
+#[[bin]]
+#name = "Q102"
+#path = "src/bin/Q102.rs"
+
+#[[bin]]
+#name = "Q103"
+#path = "src/bin/Q103.rs"
+
+#[[bin]]
+#name = "Q104"
+#path = "src/bin/Q104.rs"
+
