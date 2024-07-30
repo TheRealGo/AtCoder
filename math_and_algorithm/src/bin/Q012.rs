@@ -17,13 +17,15 @@ fn main() {
         return;
     }
 
-    let mut a = 5;
-    while a * a < n {
-        if n % a == 0 || n % (a + 2) == 0 {
+    let mut factor: usize = 5;
+    let mut add: u8 = 2;
+    while factor * factor < n {
+        if n % factor == 0 {
             println!("No");
             exit(0);
         }
-        a += 6;
+        factor += add as usize;
+        add = 6 - add;
     }
     println!("Yes");
 }
