@@ -99,9 +99,9 @@ path = "src/bin/Q020.rs"
 name = "Q021"
 path = "src/bin/Q021.rs"
 
-#[[bin]]
-#name = "Q022"
-#path = "src/bin/Q022.rs"
+[[bin]]
+name = "Q022"
+path = "src/bin/Q022.rs"
 
 #[[bin]]
 #name = "Q023"
