@@ -111,9 +111,9 @@ path = "src/bin/Q023.rs"
 name = "Q024"
 path = "src/bin/Q024.rs"
 
-#[[bin]]
-#name = "Q025"
-#path = "src/bin/Q025.rs"
+[[bin]]
+name = "Q025"
+path = "src/bin/Q025.rs"
 
 #[[bin]]
 #name = "Q026"
