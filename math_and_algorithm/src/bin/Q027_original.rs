@@ -24,7 +24,7 @@ fn main() {
 }
 
 fn sort(mut an: Vec<u32>) -> Vec<u32> {
-    if an.len() <= 1{
+    if an.len() <= 1 {
         return an;
     }
 
