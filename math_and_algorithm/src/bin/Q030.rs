@@ -32,6 +32,6 @@ fn main() {
         values[wi] = vi.max(values[wi]);
     }
 
-    let result = values.iter().max().unwrap();
+    let result = values[w];
     println!("{}", result);
 }
