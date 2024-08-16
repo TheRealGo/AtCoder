@@ -7,14 +7,14 @@ fn main() {
 
     let mut points: Vec<(u64, u64)> = Vec::with_capacity(n);
 
-    for _ in 0..n {
-        let line: Vec<u64> = lines.next().unwrap().unwrap()
-            .split_whitespace()
-            .map(|s| s.parse::<u64>().unwrap())
-            .collect();
-        points.push((line[0], line[1]));
+    for line in lines.take(n) {
+        let line = line.unwrap();
+        let mut iter = line.split_whitespace();
+        let x = iter.next().unwrap().parse().unwrap();
+        let y = iter.next().unwrap().parse().unwrap();
+        points.push((x, y));
     }
-    points.sort_by_key(|&(x, _)| x);
+    points.sort_unstable();
 
     let mut d = u64::MAX;
 
@@ -23,10 +23,9 @@ fn main() {
             let mut m = distance(points[i].0, points[j].0);
             if d < m {
                 break;
-            } else {
-                m += distance(points[i].1, points[j].1);
-                d = m.min(d);
             }
+            m += distance(points[i].1, points[j].1);
+            d = m.min(d);
         }
     }
 
@@ -35,6 +34,6 @@ fn main() {
 }
 
 fn distance(x: u64, y: u64) -> u64 {
-    let diff = if x > y { x - y } else { y - x };
+    let diff = x.abs_diff(y);
     diff * diff
 }
