@@ -3,6 +3,27 @@ use std::io::Read;
 use std::io::BufRead;
 
 fn main() {
+    // memo
+    println!("   u8::MAX: {}", u8::MAX);    // 255
+    println!("  u16::MAX: {}", u16::MAX);   // 65535
+    println!("  u32::MAX: {}", u32::MAX);   // 4294967295
+    println!("  u64::MAX: {}", u64::MAX);   // 18446744073709551615
+    println!(" u128::MAX: {}", u128::MAX);  // 340282366920938463463374607431768211455
+    println!("usize::MAX: {}", usize::MAX); // 18446744073709551615
+    println!("==================================================");
+    println!("   i8::MIN: {}", i8::MIN);    //  -128
+    println!("   i8::MAX: {}", i8::MAX);    //  127
+    println!("  i16::MIN: {}", i16::MIN);   //  -32768
+    println!("  i16::MAX: {}", i16::MAX);   //  32767
+    println!("  i32::MIN: {}", i32::MIN);   //  -2147483648
+    println!("  i32::MAX: {}", i32::MAX);   //  2147483647
+    println!("  i64::MIN: {}", i64::MIN);   //  -9223372036854775808
+    println!("  i64::MAX: {}", i64::MAX);   //  9223372036854775807
+    println!(" i128::MIN: {}", i128::MIN);  //  -170141183460469231731687303715884105728
+    println!(" i128::MAX: {}", i128::MAX);  //  170141183460469231731687303715884105727
+    println!("isize::MIN: {}", isize::MIN); //  -9223372036854775808
+    println!("isize::MAX: {}", isize::MAX); //  9223372036854775807
+    println!("==================================================");
     println!("Varius input types");
 }
 
