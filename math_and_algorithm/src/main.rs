@@ -40,7 +40,7 @@ fn lines() {
     }
 }
 
-// 行ごとに処理をする
+// 行数を受け取る -> 行ごとに処理をする
 fn parse() {
     let mut lines = io::stdin().lock().lines();
 
