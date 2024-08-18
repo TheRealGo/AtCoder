@@ -1,28 +1,21 @@
-use std::io;
-use std::io::BufRead;
+use proconio::input;
 
 fn main() {
-    let mut lines = io::stdin().lock().lines();
+    input! {
+        n: usize,
+        q: usize,
+        mut an: [u32; n],
+        lr: [(usize, usize); q],
+    }
 
-    let nq: Vec<usize> = lines.next().unwrap().unwrap()
-        .split_whitespace()
-        .map(|s| s.parse::<usize>().unwrap())
-        .collect();
-
-    let mut an: Vec<u32> = lines.next().unwrap().unwrap()
-        .split_whitespace()
-        .map(|s| s.parse::<u32>().unwrap())
-        .collect();
-    for i in 1..nq[0] {
+    for i in 1..n {
         an[i] += an[i - 1];
     }
 
-    for line in lines.take(nq[1]) {
-        let line = line.unwrap();
-        let mut iter = line.split_whitespace();
-        let l = iter.next().unwrap().parse::<usize>().unwrap() - 1;
-        let r = iter.next().unwrap().parse::<usize>().unwrap() - 1;
-        let result = if l == 0 { an[r] } else { an[r] - an[l - 1] };
-        println!("{}", result);
+    let mut result: String = String::new();
+    for (l, r) in lr {
+        let out = if l - 1 == 0 { an[r - 1] } else { an[r - 1] - an[l - 2] };
+        result.push_str(&format!("{}\n", out));
     }
+    print!("{}", result);
 }
