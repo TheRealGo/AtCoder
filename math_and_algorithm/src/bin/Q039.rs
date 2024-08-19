@@ -18,11 +18,10 @@ fn main() {
         }
     }
 
-    let result: String = area.iter()
-        .map(|&z| {
-            if z < 0 { "<" } else if z > 0 { ">" } else { "=" }
-        })
-        .collect();
+    let mut result: String = String::new();
+    for ai in area {
+        result.push_str(if ai < 0 { "<" } else if ai > 0 { ">" } else { "=" });
+    }
 
     println!("{}", result);
 }
