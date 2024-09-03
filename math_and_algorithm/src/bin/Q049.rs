@@ -23,11 +23,11 @@ fn matrix_multiply(a: [[u64; 2]; 2], b: [[u64; 2]; 2]) -> [[u64; 2]; 2] {
 fn matrix_power(mut matrix: [[u64; 2]; 2], mut n: u64) -> [[u64; 2]; 2] {
     let mut result = [[1, 0], [0, 1]];
     while n > 0 {
-        if n % 2 == 1 {
+        if n & 1 == 1 {
             result = matrix_multiply(result, matrix);
         }
         matrix = matrix_multiply(matrix, matrix);
-        n /= 2;
+        n >>= 1;
     }
     result
 }
